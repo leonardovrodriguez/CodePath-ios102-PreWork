@@ -66,7 +66,6 @@ class ViewController: UIViewController {
         UserDefaultsManager.setYear(segmentIndex: yearSegmentedControl.selectedSegmentIndex)
         UserDefaultsManager.setNumberOfPets(numberOfPets: numberOfPetsLabel.text!)
         UserDefaultsManager.setMorePets(morePets: morePetsSwitch.isOn)
-        print(morePetsSwitch.isOn)
     }
     
     func saveAlert(){
